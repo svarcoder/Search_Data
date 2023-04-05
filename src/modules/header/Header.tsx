@@ -4,7 +4,7 @@ import { useContext, useState } from 'react'
 import Search from '../../assets/images/Search Icon.svg'
 import HamIcon from '../../assets/images/ham.png'
 import HamIconBlack from '../../assets/images/Ham Black.png'
-import Menu from './burger'
+import Menu from './Burger'
 
 type HeaderProps = {
   setQuery: React.Dispatch<React.SetStateAction<string>>
